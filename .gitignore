@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Runtime logs
+*.log
+server.log
+
+# Agent runtime
+agent/agent.conf
+agent/agent.log
+agent/.cache/
+
+# Server runtime
+data/monitor.db-wal
+data/monitor.db-shm
+data/sessions/*
+server/instance/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

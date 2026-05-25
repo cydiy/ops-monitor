@@ -1,0 +1,22 @@
+# ================================================================
+# 运维监控系统 Python依赖
+# 要求: Python 3.8+ (CentOS 7 需额外安装 python3.11)
+# ================================================================
+
+# ── 服务端依赖 ──
+Flask>=2.3.2,<4.0
+Flask-SQLAlchemy>=3.0.0,<4.0
+Flask-Session>=0.5.0,<1.0
+Werkzeug>=3.0.3,<4.0
+SQLAlchemy>=2.0.0,<3.0
+
+# ── 密码加密 ──
+cryptography>=41.0.0
+
+# ── Agent端依赖（仅使用Python标准库，无需额外安装）──
+# urllib / socket / subprocess / hashlib / gzip
+# 上述均为Python3标准库，无需安装
+
+# ── 可选：报表导出增强 ──
+# pdfkit>=1.0.0        # PDF导出（需系统安装wkhtmltopdf）
+# openpyxl>=3.1.0      # Excel导出
